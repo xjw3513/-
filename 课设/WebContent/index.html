@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>主页面</title>
+		<style>
+			a:link {
+				text-decoration: none;
+				color: #03c;/*未访问*/ 
+			}
+			a:visited {
+				text-decoration: none;
+				color: #03c;/*已访问*/
+			}
+			a:hover {
+				text-decoration: underline;
+				color: #03c;/*鼠标悬停*/ 
+			}
+			
+		</style>
+	</head>
+	<body id="body">
+		<audio autoplay="autoplay" loop="loop" preload="metadata" src="../img/少年.mp3">
+		</audio>
+		<div id="logo_area">
+			<div >
+				<h1 id="sitename_cn" align="center">招聘信息可视化</h1>
+			</div>
+		</div>
+		<div align="center">
+			<table height="600" border="0" width="80%">
+				<tr>
+					<td width="200" valign="top"><!-- left -->
+						<div id="menu_container">
+							<div class="menu_title"></div>
+							<ul >
+								<li><a href="学历饼图.html" target="mainFrame">学历饼图</a></li>
+						
+							</ul>
+							<ul>
+								<li>
+									<a href="各个省市招聘人数条形图.html" target="mainFrame">各省招聘人数条形图</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="各个省市招聘人数点地图one.html" target="mainFrame">各省招聘人数点地图</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="各个省市招聘人数块地图tow.html" target="mainFrame">各省招聘人数块地图</a>
+								</li>
+							</ul>
+					</td>
+					<td valign="top"><!-- right -->
+						<iframe src="welcome.html" name="mainFrame"
+							width="100%" height="100%" noresize scrolling="auto" border="0" ></iframe>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="copyright" align="center">
+			© 2020 版权所有 607宿舍
+		</div>
+	</body>
+	
+
+</html>
